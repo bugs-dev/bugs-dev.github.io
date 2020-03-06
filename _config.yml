@@ -17,7 +17,7 @@ texture:
   tagline: Web, API
   date_format: "%b %-d, %Y"
   style: red
-  showNav: false
+  showNav: true
   showPicker: false
   disqus_shortname: https-bugs-dev-github-io-1
 
@@ -36,6 +36,9 @@ texture:
 
 # Build settings
 # theme: texture
+
+collections:
+  authors:
 
 plugins:
   - jekyll-seo-tag
